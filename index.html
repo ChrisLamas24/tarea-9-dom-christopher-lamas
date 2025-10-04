@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Manipulación del DOM</title>
+  <style>
+    .destacado { color: blue; font-weight: bold; }
+    .oculto { display: none; }
+    .titulo { font-size: 24px; margin-bottom: 10px; }
+    .importante { background-color: yellow; }
+  </style>
+</head>
+<body>
+
+  <h1 id="titulo-principal">DOM en acción</h1>
+  <p class="parrafo">Primer párrafo</p>
+  <p class="parrafo">Segundo párrafo</p>
+  <p class="parrafo">Tercer párrafo</p>
+
+  <div id="zona-click" style="width:200px; height:50px; background-color:#ccc; margin:10px;">Haz clic aquí</div>
+  <button id="boton">Botón</button>
+
+  <input type="password" id="campo-password" placeholder="Escribe tu contraseña">
+
+  <form id="formulario">
+    <input type="text" name="user" placeholder="Usuario">
+    <input type="password" name="password" placeholder="Contraseña">
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="contenedor-titulo"></div>
+  <div id="contenedor-imagen"></div>
+
+  <div id="elemento-a-remover">Este elemento será eliminado</div>
+
+  <!-- Enlace al archivo JS externo -->
+  <script src="script.js"></script>
+</body>
+</html>
